@@ -1,0 +1,157 @@
+a:hover {color:#ff4800}
+/*defining the hover affect on nav bar*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-container{
+    /*defining the design of div holding profile photo and info in the home page*/
+    background-color:#E4F9F5;
+    position:relative;
+    padding-top:100px;
+}
+
+
+.current {
+    /*defining the style of the particular heading that is currently opened in nav bar*/
+	background-color:#fff133;
+	height:50px;
+    font-family: cursive;
+}
+
+.menu {
+    /*defining the style of headings in the nav bar*/
+	background-color:rgb(17, 248, 248);
+	height:50px;
+    font-family:cursive;
+}
+
+.social-icon{
+    /*defining the design of icons on the footer */
+    height: 60px;
+    width: 70px;
+    padding-left: 10px;
+    padding-top: 20px
+}
+.social-icons {
+    /*defining the design of icons in the contact page*/
+    height: 80px;
+    widows: 50px;
+}
+
+.main {
+    /*defining the style of the div containing all the contentens in pages except home*/
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+
+
+.top-cloud{
+    /*defining the style of cloud image in home page */
+    position:absolute;
+    right:300px;
+    top:60px;
+    
+    }
+
+.title-text
+{
+    /*defining the style of h1 tag used in home page*/ 
+    color:#66BFBF;
+    font-size: 4.5rem;
+    margin:30px auto 10px auto;
+    /* margin:top right bottom left */
+    font-family:'sacramento',cursive;
+
+}
+    
+    
+.bottom-container{
+    /*defining the style of div holding footer*/
+    background-color:#66BFBF;
+    width: 100%;
+    bottom: 0;
+    overflow: auto;
+    margin-top: 10px;
+    padding:10px;
+}
+
+
+.profile{
+    /*defining the style of div containing profile details in home page*/
+    margin: 30px;
+}
+
+.profile img{
+    /*defining the style of profile image in home page*/
+    border-radius:50%;
+    height:250px;
+    width:250px;
+    }  
+
+
+.location {
+    /*defining the style of div containing location details in contact page*/
+    float: left;
+    padding: 30px;
+    margin-left: 50px;
+}
+
+.phone {
+    /*defining the style of div containing phone details in contact page*/
+    float: left;
+    padding: 30px;
+    margin-left: 50px;
+}
+
+.local {
+    /*defining the style of p tag containing  details in contact page*/
+    font-size: 17px;
+    margin: 0 0 0 -30px;
+}
+
+.social {
+    /*defining the style of div containing mail details in contact page*/
+    float: left;
+    padding: 30px;
+    margin-left: 50px;
+}
+
+#slider {
+    /*defining the style of images in slider in blog page*/
+    height: 300px;
+    width: 500px;
+    padding: 20px;
+    margin: 10px 10px 10px 70px;
+}
+
+.copyright{
+    /*defining the style of p tag containing copyright details in footer*/
+    color:#EAF6F6;
+    font-size:1rem;
+    padding:10px 0;
+}
+
+.profile1 {
+    /*defining the style of profile image in resume page*/
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    align-content: center;
+    float: right;
+    padding: 20px;
+}
+
+.icon{
+    /*defining the style of arrow icon used in resume page*/
+    height: 40px;
+    width: 50px;
+    padding-left: 10px;
+}
+
+

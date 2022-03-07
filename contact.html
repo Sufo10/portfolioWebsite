@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- opening the html tag -->
+<head>
+    <!-- opening the  header tag-->
+    <meta charset="UTF-8">
+    <!-- meta data of the webpage  -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- meta data of the webpage  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- meta data of the webpage  -->
+    <meta name="description" content="portfolio website">
+    <!-- meta data of the webpage  -->
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <!-- meta data of the webpage  -->
+    <meta name="creator" content="Sujan Chhetri Poudel">
+    <!-- meta data of the webpage  -->
+    <title>CONTACT</title>
+    <!-- adding the title of webpage -->
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Fondamento|Great+Vibes|Lobster|Kelly+Slab" rel="stylesheet">
+    <!-- link to the font used in the webpage   -->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Sacramento|Montserrat+Sans&display=swap" rel="stylesheet"> 
+    <!-- link to the font used in the webpage   -->
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+    <!-- link to the icon on the title bar   -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- linking the external CSS file -->
+</head>
+<!--  closing the header tag-->
+
+<body style="background-image: url(image/back.jpg);width: 100%;height: 100%;text-align: center;margin: 0;">
+     <!--   opening body defining its design -->
+     <style>
+         /*use of internal CSS*/
+        .contact {
+            /*defining the style of division containing form*/
+            float: left;
+            color: white;
+            margin: 50px 20px;
+            background: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+            padding: 20px;
+        }
+        
+        .form_details {
+            /*defining the style of contents in side form */
+            height: 30px;
+            width: 300px;
+            margin: 20px
+        }
+        
+        .moreaboutme {
+            /*defining the style of division containing the contact information*/
+            padding-top: 20px;
+            float: left;
+            color: white;
+            margin-top: 50px;
+            margin-left: 50px;
+            height: 400px;
+            background: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+        }
+        
+        .Connect {
+            /*defining the style of contact informations*/
+            float: left;
+        }
+    </style>
+
+    <script>
+        /* internal javascript for form validation*/
+        function validateForm() {
+            /*function to validate form*/
+            var firstname = document.forms["messageForm"]["firstname"].value;
+            var lastname = document.forms["messageForm"]["lastname"].value;
+            var gender = document.forms["messageForm"]["gender"].value;
+            var message = document.forms["messageForm"]["message"].value;
+            var email = document.forms["messageForm"]["Email"].value;
+            var phone = document.forms["messageForm"]["phone"].value;
+            if (firstname == "" || lastname == "" || message == "" || email == "" || phone == "") {
+                alert("Empty fields found. Please fill the form completely.");
+            }
+            else {
+                alert("Thank you for the feedback. ");
+            }
+        }
+    </script>
+    <div class='main'>
+        <!--opening divison and giving it is a class name main -->
+        <nav>
+            <!--opening nav tag  -->
+            <table style="width:70%; margin:auto;">
+                <!--opening table tag and adding attributes -->
+                <tr>
+                    <!--  opening of table row   -->
+                    <th class="menu">
+                        <a href="index.html">HOME</a>
+                    </th>
+                    <!--  keeping the option as table header with class current,linking pages by anchor tag and closing both tags   -->
+                    <th class="menu">
+                        <a href="resume.html">RESUME</a>
+                    </th>
+                    <!--  keeping the option as table header with class menu ,linking pages by anchor tag and closing both tags   -->
+                    <th class="menu">
+                        <a href="blog.html">BLOG</a>
+                    </th>
+                    <!--  keeping the option as table header with class menu ,linking pages by anchor tag and closing both tags   -->
+                    <th class="menu">
+                        <a href="reaserch.html">RESEARCH</a>
+                    </th>
+                    <!--  keeping the option as table header with class menu ,linking pages by anchor tag and closing both tags   -->
+                    <th class="current">
+                        <a href="#">CONTACT</a>
+                    </th>
+                    <!--  keeping the option as table header with class menu ,linking pages by anchor tag and closing both tags   -->
+                </tr>
+                <!--  closing of table row   -->
+            </table>
+            <!--  closing of table tag  -->
+        </nav>
+        <!--  closing of nav tag  -->
+        <div class="moreaboutme">
+            <!-- opening divison and giving it is a class name moreaboutme -->
+            <h1 style="color: white;font-family: Fondamento;background-color: rgb(240, 16, 27); margin:0px 20px">  Connect With Me </h1>
+            <!-- message with heading tag -->
+            <br>
+            <div class="Connect">
+                <!-- opening  the div with class  name Connect -->
+                <div class="location"> 
+                    <!-- opening  the div with class name location -->
+                    <img src="image/location.png" class="social-icons">
+                    <!-- adding image of location icon -->
+                    <!-- providing location details -->
+                    <h5> LOCATION</h5>
+                    <br>
+                    <p class="local">Birtamode-06,
+                        <!-- p tag with class name local-->
+                        <br>Jhapa,
+                        <br>Nepal.</p>
+                    <br> 
+                </div>
+                <!-- closing divison tag -->
+            </div>
+            <!-- closing divison tag -->
+
+            <div class="Connect">
+                <!-- opening  the div with class name Connect -->
+                <div class="phone"> 
+                    <!-- opening  the div with class name phone-->
+                    <img src="image/cell.png" class="social-icons">
+                    <!-- adding image of mobile icon -->
+                    <!-- providing contact details -->
+                    <h5> CONTACT</h5>
+                    <p class="local">
+                        <!-- p tag with class name local-->
+                        <br>+977-9815091399</p>
+                    <br> 
+                </div>
+                <!-- closing divison tag -->
+            </div>
+            <!-- closing divison tag -->
+
+            <div class="Connect">
+                <!-- opening  the div with class name Connect-->
+                <div class="social"> 
+                    <!-- opening  the div with class name social-->
+                    <img src="image/mailg.png" class="social-icons">
+                     <!-- adding image of mail icon -->
+                    <!-- providing mail details -->
+                    <h5>  &nbsp;  &nbsp; &nbsp; &nbsp; MAIL </h5>
+                    <p class="local">
+                        <!-- p tag with class name local-->
+                        <br> sufo361@gmail.com</p>
+                    <br> 
+                </div>
+                <!-- closing divison tag -->
+            </div>
+            <!-- closing divison tag -->
+        </div>
+        <!-- closing divison tag -->
+
+        <div>
+            <!-- opening  the div -->
+            <div class="contact">
+                <!-- opening  the div with class name contact-->
+                <h1 style="color: white;font-family: Fondamento;background-color: rgb(240, 16, 27);"> FEEDBACK</h1>
+                <!-- heading in h1 tag -->
+                <br>
+                <br>
+                <!-- line breakers -->
+                <h3 style="color: white;font-family: Fondamento"> Drop me an email below. You can contact me through phone too : 9815091399 </h3>
+                <!-- message in heading tag -->
+                <form name="messageForm" onsubmit="validateForm()">
+                    <!-- opening of form tag -->
+                    <br>
+                    <p>
+                        <input class="form_details" type="text" name="firstname" placeholder="First Name"> </p>
+                        <!-- an input tag with type text  to hold firstname-->
+                    <p>
+                        <input class="form_details" type="text" name="lastname" placeholder="Last Name"> </p>
+                        <!-- an input tag with type text  to hold lastname-->
+                    <p>
+                        <input class="form_details" type="email" name="Email" placeholder="Email"> </p>
+                        <!-- an input tag with type email to hold email-->
+                    <p>    
+                        <input class="form_details" type="text" name="phone" placeholder="Phone Number"> </p>
+                        <!-- an input tag with type text to hold phonenumber -->
+
+                    <p style="font-size: 20px;">Gender: &nbsp; &nbsp; &nbsp; &nbsp;
+                        <input type="radio" name="gender" value="male" checked> Male &nbsp; &nbsp; &nbsp; &nbsp;
+                        <input type="radio" name="gender" value="female"> Female </p>
+                        <!-- an input tag with type radio to select gender-->
+                    <br>
+                    <p>
+                        <textarea name="message" rows="8" cols="40" placeholder="Enter Message"></textarea>
+                        <!-- textarea to hold message-->
+                    </p>
+                    <p>
+                        <input class="form_details" type="submit" value="Submit"> </p>
+                        <!-- an input tag with type submit -->
+                </form>
+                <!-- closing form tag -->
+            </div>
+            <!-- closing divison tag -->
+        </div>
+        <!-- closing divison tag -->
+
+        
+        <footer class="bottom-container" >
+            <!-- opening footer tag with class name bottom-container -->
+            <p style="font-size: large;">Social links
+                <!-- opening paragraph tag with attributes  -->
+                <br>
+            <a href="https://www.facebook.com/sufo.xettri.9" target="_blank"> <img src="image/fb.png" class="social-icon"></a>
+            <!--  adding image tag and link to the image on socialsite   -->
+            <a href="https://www.instagram.com/sufo_chhetri18/?hl=en" target="_blank"><img src="image/insta.png" class="social-icon"></a>
+            <!--  adding image tag and link to the image on socialsite   -->
+            <a href="https://github.com/Sufo10" target="_blank"><img src="image/GitHub.png" class="social-icon"></a>
+            <!--  adding image tag and link to the image on socialsite   -->
+            <a href="https://twitter.com/Sufo_10" target="_blank"><img src="image/twitter.png" class="social-icon"></a>
+            <!--  adding image tag and link to the image on socialsite   -->
+            </p>
+            <!-- closing paragraph   tag  -->
+            <p class="copyright">&copy 2021 Sujan Chhetri Poudel @Islington College</p>
+            <!-- copyright information in paragraph tag -->
+        </footer>
+        <!--closing footer tag -->
+    </div>
+    <!-- closing div tag  -->
+    
+</body>
+<!-- closing body tag -->
+</html>
+<!-- closing html tag -->
